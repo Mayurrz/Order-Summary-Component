@@ -1,0 +1,150 @@
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+  
+  body {
+      background-color: hsl(225, 100%, 94%);
+      font-family: 'Outfit', sans-serif;
+  }
+  
+  .main {
+      width: 375px;
+      height: auto;
+      margin: auto;
+      margin-top: 80px;
+      background-color: white;
+      border-radius: 15px;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+      text-align: center;
+      padding: 0%;
+      padding-bottom: 15px;
+  }
+  
+  .hero {
+      width: 375px;
+      height: autopx;
+      border-radius: 15px 15px 0 0px;
+  }
+  
+  h1 {
+      font-weight: 900;
+      margin: 16px;
+      font-size: 32px;
+  }
+  
+  h2 {
+      font-weight: 500;
+      margin: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+  }
+  
+  .music {
+      background-color: hsl(225, 100%, 98%);
+      display: flex;
+      flex-direction: row;
+      padding: 8px;
+      margin: 30px;
+      margin-top: 20px;
+      margin-bottom: 20;
+      border-radius: 10px;
+      align-items: center;
+  }
+  
+  .info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 40px;
+      text-align: left;
+  }
+  
+  h3 {
+      font-weight: 900;
+      font-size: 18px;
+  }
+  
+  h4 {
+      font-weight: 500;
+      font-size: 16px;
+      margin-top: 5px;
+  }
+  
+  h5 {
+      font-weight: 700;
+      font-size: 16px;
+      color: hsl(245, 75%, 52%);
+      text-decoration: underline;
+      text-align: right;
+      margin-left: 0px;
+  }
+  
+  .payment {
+      background-color: hsl(245, 75%, 52%);
+      width: 320px;
+      height: 45px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+  }
+  
+  h6 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: gray;
+  }
+  
+  @media (min-width: 45rem) {
+      .main {
+          width: 400px;
+      }
+      .hero {
+          width: 400px;
+      }
+      .payment {
+          width: 340px;
+      }
+      h5 {
+          font-size: 14px;
+          margin-left: 10px;
+          opacity: 1;
+      }
+      h5:hover {
+          opacity: 0.5;
+          cursor: pointer;
+      }
+      .info {
+          margin-right: 70px;
+      }
+      h6 {
+          font-size: 14px;
+          margin-top: 16px;
+      }
+      h6:hover {
+          color: hsl(223, 47%, 23%);
+          cursor: pointer;
+          font-size: 14.5px;
+      }
+      .payment:hover {
+          opacity: 0.6;
+          cursor: pointer;
+      }
+  }
+  
+  .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin: 20px
+  }
+  
+  .attribution a {
+      color: hsl(228, 45%, 44%);
+  }
